@@ -9,7 +9,10 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+	"web_app/controller"
+	"web_app/dao/mysql"
 	"web_app/logger"
+	"web_app/pkg/snowflake"
 	"web_app/routes"
 	"web_app/settings"
 
@@ -34,11 +37,11 @@ func main() {
 	zap.L().Debug("logger init success...")
 
 	// 3 初始化 mysql 连接
-	// if err := mysql.Init(); err != nil {
-	// 	fmt.Printf("init mysql failed, err:%v\n", err)
-	// 	return
-	// }
-	// defer mysql.Close()
+	if err := mysql.Init(); err != nil {
+		fmt.Printf("init mysql failed, err:%v\n", err)
+		return
+	}
+	defer mysql.Close()
 
 	// 4 初始化 redis 连接
 	// if err := redis.Init(); err != nil {
@@ -46,6 +49,21 @@ func main() {
 	// 	return
 	// }
 	// redis.Close()
+
+	if err := snowflake.Init(
+		viper.GetString("app.start_time"),
+		viper.GetInt64("app.machine_id")); err != nil {
+		fmt.Printf("init showflake failed, err:%v\n", err)
+		return
+	}
+
+	zap.L().Info(fmt.Sprintf("Gen ID %d", snowflake.GenID()))
+
+	// 初始化 gin 内置的校验使用的翻译器
+	if err := controller.InitTrans("zh"); err != nil {
+		fmt.Printf("init validator trans failed, err:%v\n", err)
+		return
+	}
 
 	// 5 注册路由
 	r := routes.Setup()

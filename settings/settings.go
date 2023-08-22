@@ -8,10 +8,10 @@ import (
 )
 
 func Init() (err error) {
-	viper.SetConfigName("config")
-	viper.SetConfigType("yaml")
+	//viper.SetConfigName("config")
+	//viper.SetConfigType("yaml")
+	viper.SetConfigFile("./config.yaml") // 指定配置文件路径
 	viper.AddConfigPath(".")
-	//viper.SetConfigFile("./conf/config.yaml") // 指定配置文件路径
 
 	if err := viper.ReadInConfig(); err != nil {
 		fmt.Printf("viper.ReadInConfig() failed, err:%v\n", err)

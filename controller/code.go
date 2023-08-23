@@ -15,7 +15,7 @@ const (
 )
 
 var codeMsgMap = map[ResCode]string{
-	CodeSuccess:         "成功",
+	CodeSuccess:         "成功200",
 	CodeInvalidParam:    "参数错误",
 	CodeUserExist:       "用户已存在",
 	CodeUserNotExist:    "用户不存在",

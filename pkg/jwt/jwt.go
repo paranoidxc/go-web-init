@@ -45,9 +45,11 @@ func ParseToken(tokenString string) (*MyClaims, error) {
 	})
 
 	// 过期
-	v, _ := err.(*jwt.ValidationError)
-	if v.Errors == jwt.ValidationErrorExpired {
-		// 可以重新生成...
+	if err != nil {
+		v, _ := err.(*jwt.ValidationError)
+		if v.Errors == jwt.ValidationErrorExpired {
+			// 可以重新生成...
+		}
 	}
 
 	if err != nil {

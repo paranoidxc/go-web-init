@@ -1,7 +1,0 @@
-{"level":"DEBUG","time":"2023-08-21T11:01:40.582+0800","caller":"web_app/main.go:36","msg":"logger init success..."}
-{"level":"ERROR","time":"2023-08-21T11:01:40.583+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"dial tcp 127.0.0.1:13306: connect: connection refused"}
-{"level":"DEBUG","time":"2023-08-21T11:05:28.907+0800","caller":"web_app/main.go:34","msg":"logger init success..."}
-{"level":"INFO","time":"2023-08-21T11:06:04.971+0800","caller":"logger/logger.go:70","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0","errors":"","cost":0.000015428}
-{"level":"INFO","time":"2023-08-21T11:06:05.229+0800","caller":"logger/logger.go:70","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0","errors":"","cost":0.000000976}
-{"level":"INFO","time":"2023-08-21T11:11:13.166+0800","caller":"web_app/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2023-08-21T11:11:13.166+0800","caller":"web_app/main.go:83","msg":"Server exiting"}

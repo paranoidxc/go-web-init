@@ -4,19 +4,12 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"
-	"errors"
 	"web_app/models"
 
 	"go.uber.org/zap"
 )
 
 const secret = "paranoid"
-
-var (
-	ErrorUserExist       = errors.New("用户已存在")
-	ErrorUserNotExist    = errors.New("用户不存在")
-	ErrorInvalidPassword = errors.New("用户名或密码错误")
-)
 
 func QueryUserByID() {
 }
@@ -69,4 +62,13 @@ func Login(user *models.User) (err error) {
 	}
 
 	return nil
+}
+
+func GetUserById(id int64) (user *models.User, err error) {
+	user = new(models.User)
+
+	sqlStr := `select user_id, username from user where user_id = ?`
+	err = db.Get(user, sqlStr, id)
+
+	return
 }

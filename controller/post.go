@@ -34,7 +34,7 @@ func CreatePostHandler(c *gin.Context) {
 
 	// 2.业务处理
 	if err := logic.CreatePost(p); err != nil {
-		zap.L().Error("logic.SignUp() failed", zap.Error(err))
+		zap.L().Error("CreatePost() failed", zap.Error(err))
 		ResponseError(c, CodeServerBusy)
 		return
 	}
@@ -54,6 +54,18 @@ func GetPostDetailHandler(c *gin.Context) {
 	data, err := logic.GetPostDetail(id)
 	if err != nil {
 		zap.L().Error("logic.GetPostDetail() failed", zap.Error(err))
+		ResponseError(c, CodeServerBusy)
+	}
+
+	ResponseSuccess(c, data)
+}
+
+func GetPostListHandler(c *gin.Context) {
+	page, size := getPageInfo(c)
+	data, err := logic.GetPostList(page, size)
+
+	if err != nil {
+		zap.L().Error("logic.GetPostList() failed", zap.Error(err))
 		ResponseError(c, CodeServerBusy)
 	}
 

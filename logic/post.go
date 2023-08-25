@@ -2,6 +2,7 @@ package logic
 
 import (
 	"web_app/dao/mysql"
+	"web_app/dao/redis"
 	"web_app/models"
 	"web_app/pkg/snowflake"
 
@@ -13,7 +14,13 @@ func CreatePost(p *models.Post) (err error) {
 	p.ID = snowflake.GenID()
 
 	// 2. save to db
-	return mysql.CreatePost(p)
+	err = mysql.CreatePost(p)
+	if err != nil {
+		return err
+	}
+
+	err = redis.CreatePost(p.ID)
+	return
 }
 
 func GetPostDetail(id int64) (data *models.ApiPostDetail, err error) {
@@ -47,6 +54,47 @@ func GetPostDetail(id int64) (data *models.ApiPostDetail, err error) {
 		AuthorName:      user.Username,
 		Post:            post,
 		CommunityDetail: community,
+	}
+
+	return
+}
+
+func GetPostList(page, size int64) (data []*models.ApiPostDetail, err error) {
+	// 分页
+	posts, err := mysql.GetPostList(page, size)
+
+	if err != nil {
+		return nil, err
+	}
+
+	data = make([]*models.ApiPostDetail, 0, len(posts))
+
+	for _, post := range posts {
+		// 查找作者信息
+		user, err := mysql.GetUserById(post.AuthorID)
+		if err != nil {
+			zap.L().Error("mysql.GetUserById(post.AuthorID) failed",
+				zap.Int64("author_id", post.AuthorID),
+				zap.Error(err))
+			continue
+		}
+
+		// 查社区信息
+		commnunity, err := mysql.GetCommunityDetailByID(post.CommunityID)
+		if err != nil {
+			zap.L().Error("mysql.GetCommunityDetailByID(post.CommunityID) failed",
+				zap.Int64("author_id", post.CommunityID),
+				zap.Error(err))
+			continue
+		}
+
+		postdetail := &models.ApiPostDetail{
+			AuthorName:      user.Username,
+			Post:            post,
+			CommunityDetail: commnunity,
+		}
+
+		data = append(data, postdetail)
 	}
 
 	return

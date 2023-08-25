@@ -11,6 +11,7 @@ import (
 	"time"
 	"web_app/controller"
 	"web_app/dao/mysql"
+	"web_app/dao/redis"
 	"web_app/logger"
 	"web_app/pkg/snowflake"
 	"web_app/routes"
@@ -21,9 +22,11 @@ import (
 )
 
 func main() {
+
 	// 1 加载配置
 	if err := settings.Init(); err != nil {
 		fmt.Printf("init settings failed, err:%v\n", err)
+
 		return
 	}
 
@@ -44,11 +47,11 @@ func main() {
 	defer mysql.Close()
 
 	// 4 初始化 redis 连接
-	// if err := redis.Init(); err != nil {
-	// 	fmt.Printf("init redis failed, err:%v\n", err)
-	// 	return
-	// }
-	// redis.Close()
+	if err := redis.Init(); err != nil {
+		fmt.Printf("init redis failed, err:%v\n", err)
+		return
+	}
+	redis.Close()
 
 	if err := snowflake.Init(
 		viper.GetString("app.start_time"),

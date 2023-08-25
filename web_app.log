@@ -1,0 +1,886 @@
+{"level":"DEBUG","time":"2023-08-23T15:48:15.332+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T15:48:15.352+0800","caller":"web_app/main.go:60","msg":"Gen ID 416139110156079104"}
+{"level":"DEBUG","time":"2023-08-23T16:09:34.950+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T16:09:34.965+0800","caller":"web_app/main.go:60","msg":"Gen ID 416144477242003456"}
+{"level":"DEBUG","time":"2023-08-23T17:35:12.679+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:35:12.699+0800","caller":"web_app/main.go:60","msg":"Gen ID 416166026460270592"}
+{"level":"INFO","time":"2023-08-23T17:35:15.550+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/416121851840827392","status":200,"method":"GET","path":"/api/v1/post/416121851840827392","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.001359622}
+{"level":"DEBUG","time":"2023-08-23T17:35:26.453+0800","caller":"mysql/user.go:58","msg":"3132333435369e7aa5c51cfe1d6922cd9a0c03387901"}
+{"level":"INFO","time":"2023-08-23T17:35:26.453+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.006482937}
+{"level":"INFO","time":"2023-08-23T17:35:37.178+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/416121851840827392","status":200,"method":"GET","path":"/api/v1/post/416121851840827392","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.023033164}
+{"level":"DEBUG","time":"2023-08-23T17:37:58.535+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:37:58.549+0800","caller":"web_app/main.go:60","msg":"Gen ID 416166722085588992"}
+{"level":"DEBUG","time":"2023-08-23T17:38:23.315+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:38:23.336+0800","caller":"web_app/main.go:60","msg":"Gen ID 416166826049802240"}
+{"level":"DEBUG","time":"2023-08-23T17:39:05.233+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:39:05.252+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167001858248704"}
+{"level":"DEBUG","time":"2023-08-23T17:40:04.027+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:40:04.041+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167248437186560"}
+{"level":"DEBUG","time":"2023-08-23T17:40:13.013+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:40:13.030+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167286139785216"}
+{"level":"DEBUG","time":"2023-08-23T17:40:22.330+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:40:22.342+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167325197144064"}
+{"level":"DEBUG","time":"2023-08-23T17:40:39.429+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:40:39.442+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167396919742464"}
+{"level":"DEBUG","time":"2023-08-23T17:42:39.807+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:42:39.821+0800","caller":"web_app/main.go:60","msg":"Gen ID 416167901825863680"}
+{"level":"DEBUG","time":"2023-08-23T17:43:27.902+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:43:27.925+0800","caller":"web_app/main.go:60","msg":"Gen ID 416168103588663296"}
+{"level":"ERROR","time":"2023-08-23T17:43:58.221+0800","caller":"controller/post.go:17","msg":"Post with invalid param","error":"EOF"}
+{"level":"INFO","time":"2023-08-23T17:43:58.221+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000299994}
+{"level":"ERROR","time":"2023-08-23T17:44:20.990+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:20.995+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:21.001+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:21.008+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:21.016+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:21.023+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-23T17:44:21.029+0800","caller":"logic/post.go:68","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-23T17:44:21.068+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.086381493}
+{"level":"DEBUG","time":"2023-08-23T17:44:43.084+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:44:43.100+0800","caller":"web_app/main.go:60","msg":"Gen ID 416168418895466496"}
+{"level":"DEBUG","time":"2023-08-23T17:46:37.396+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:46:37.412+0800","caller":"web_app/main.go:60","msg":"Gen ID 416168898354745344"}
+{"level":"DEBUG","time":"2023-08-23T17:49:30.730+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-23T17:49:30.743+0800","caller":"web_app/main.go:60","msg":"Gen ID 416169625357651968"}
+{"level":"INFO","time":"2023-08-23T18:03:33.827+0800","caller":"web_app/main.go:92","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-23T18:03:33.827+0800","caller":"web_app/main.go:101","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-24T09:12:36.922+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:12:36.950+0800","caller":"web_app/main.go:60","msg":"Gen ID 416401931947216896"}
+{"level":"INFO","time":"2023-08-24T09:12:40.318+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000188978}
+{"level":"DEBUG","time":"2023-08-24T09:12:45.815+0800","caller":"mysql/user.go:58","msg":"3132333435369e7aa5c51cfe1d6922cd9a0c03387901"}
+{"level":"INFO","time":"2023-08-24T09:12:45.816+0800","caller":"logger/logger.go:80","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.038411438}
+{"level":"ERROR","time":"2023-08-24T09:12:55.638+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:12:55.639+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.019756724}
+{"level":"INFO","time":"2023-08-24T09:13:12.283+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/416121851840827392","status":200,"method":"GET","path":"/api/v1/post/416121851840827392","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.039817085}
+{"level":"ERROR","time":"2023-08-24T09:13:43.724+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:13:43.725+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.013169326}
+{"level":"ERROR","time":"2023-08-24T09:13:44.700+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:13:44.700+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.013869921}
+{"level":"DEBUG","time":"2023-08-24T09:15:12.509+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:15:12.524+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402584471867392"}
+{"level":"ERROR","time":"2023-08-24T09:15:14.362+0800","caller":"controller/post.go:87","msg":"logic.GetPostList() failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?' at line 4"}
+{"level":"INFO","time":"2023-08-24T09:15:14.362+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.003651883}
+{"level":"ERROR","time":"2023-08-24T09:15:16.086+0800","caller":"controller/post.go:87","msg":"logic.GetPostList() failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?' at line 4"}
+{"level":"INFO","time":"2023-08-24T09:15:16.086+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.002355321}
+{"level":"ERROR","time":"2023-08-24T09:15:17.170+0800","caller":"controller/post.go:87","msg":"logic.GetPostList() failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?' at line 4"}
+{"level":"INFO","time":"2023-08-24T09:15:17.170+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.013254923}
+{"level":"ERROR","time":"2023-08-24T09:15:17.958+0800","caller":"controller/post.go:87","msg":"logic.GetPostList() failed","error":"Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?' at line 4"}
+{"level":"INFO","time":"2023-08-24T09:15:17.958+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.002664917}
+{"level":"DEBUG","time":"2023-08-24T09:15:36.228+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:15:36.241+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402683948175360"}
+{"level":"DEBUG","time":"2023-08-24T09:15:36.707+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:15:36.719+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402685953052672"}
+{"level":"ERROR","time":"2023-08-24T09:15:38.557+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:15:38.557+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.021264521}
+{"level":"ERROR","time":"2023-08-24T09:15:39.593+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:15:39.593+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011473792}
+{"level":"DEBUG","time":"2023-08-24T09:15:54.037+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:15:54.048+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402758636146688"}
+{"level":"DEBUG","time":"2023-08-24T09:16:00.437+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:16:00.452+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402785496469504"}
+{"level":"ERROR","time":"2023-08-24T09:16:02.410+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:16:02.410+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012167987}
+{"level":"ERROR","time":"2023-08-24T09:16:11.268+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:16:11.268+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.009672193}
+{"level":"DEBUG","time":"2023-08-24T09:16:28.268+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:16:28.338+0800","caller":"web_app/main.go:60","msg":"Gen ID 416402902458830848"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.676+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.701+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.726+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.753+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.766+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.797+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"ERROR","time":"2023-08-24T09:16:28.852+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:16:29.081+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.499959286}
+{"level":"ERROR","time":"2023-08-24T09:18:05.368+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:05.473+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.116083734}
+{"level":"ERROR","time":"2023-08-24T09:18:10.671+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:10.671+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010997522}
+{"level":"ERROR","time":"2023-08-24T09:18:13.276+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:13.289+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.024531966}
+{"level":"ERROR","time":"2023-08-24T09:18:34.809+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:34.810+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011079268}
+{"level":"ERROR","time":"2023-08-24T09:18:49.397+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:49.397+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.016401899}
+{"level":"ERROR","time":"2023-08-24T09:18:50.253+0800","caller":"logic/post.go:69","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:18:50.253+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011667888}
+{"level":"DEBUG","time":"2023-08-24T09:20:01.909+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:20:01.931+0800","caller":"web_app/main.go:60","msg":"Gen ID 416403798332805120"}
+{"level":"ERROR","time":"2023-08-24T09:20:03.624+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:20:03.624+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011198033}
+{"level":"ERROR","time":"2023-08-24T09:20:12.831+0800","caller":"logic/post.go:71","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:20:12.831+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011367411}
+{"level":"DEBUG","time":"2023-08-24T09:20:18.429+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:20:18.447+0800","caller":"web_app/main.go:60","msg":"Gen ID 416403867605929984"}
+{"level":"ERROR","time":"2023-08-24T09:20:21.382+0800","caller":"logic/post.go:72","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:20:21.382+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010900241}
+{"level":"ERROR","time":"2023-08-24T09:20:46.247+0800","caller":"logic/post.go:72","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:20:46.299+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.094491108}
+{"level":"DEBUG","time":"2023-08-24T09:21:02.220+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:21:02.234+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404051261919232"}
+{"level":"DEBUG","time":"2023-08-24T09:21:03.220+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:21:03.234+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404055456223232"}
+{"level":"DEBUG","time":"2023-08-24T09:21:04.084+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:21:04.097+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404059075907584"}
+{"level":"ERROR","time":"2023-08-24T09:21:09.506+0800","caller":"logic/post.go:72","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:21:09.520+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.033896344}
+{"level":"ERROR","time":"2023-08-24T09:21:11.566+0800","caller":"logic/post.go:72","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:21:11.584+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.034838967}
+{"level":"DEBUG","time":"2023-08-24T09:21:37.391+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:21:37.402+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404198767202304"}
+{"level":"ERROR","time":"2023-08-24T09:21:45.383+0800","caller":"logic/post.go:73","msg":"mysql.GetUserById(post.AuthorID) failed","author_id":0,"error":"sql: no rows in result set"}
+{"level":"INFO","time":"2023-08-24T09:21:45.394+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.037216891}
+{"level":"INFO","time":"2023-08-24T09:22:22.802+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.026724823}
+{"level":"INFO","time":"2023-08-24T09:22:24.070+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.027351541}
+{"level":"DEBUG","time":"2023-08-24T09:22:36.370+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:22:36.387+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404446168223744"}
+{"level":"INFO","time":"2023-08-24T09:22:40.307+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.035221713}
+{"level":"DEBUG","time":"2023-08-24T09:22:52.190+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:22:52.203+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404512505335808"}
+{"level":"INFO","time":"2023-08-24T09:22:53.658+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.028784111}
+{"level":"DEBUG","time":"2023-08-24T09:23:11.629+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:11.652+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404594080354304"}
+{"level":"INFO","time":"2023-08-24T09:23:13.810+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.031248491}
+{"level":"DEBUG","time":"2023-08-24T09:23:23.405+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:23.421+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404643443118080"}
+{"level":"INFO","time":"2023-08-24T09:23:24.846+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.030140741}
+{"level":"DEBUG","time":"2023-08-24T09:23:35.701+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:35.714+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404695003697152"}
+{"level":"DEBUG","time":"2023-08-24T09:23:37.435+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:37.449+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404702280814592"}
+{"level":"DEBUG","time":"2023-08-24T09:23:39.802+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:39.817+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404712212926464"}
+{"level":"DEBUG","time":"2023-08-24T09:23:45.460+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:23:45.474+0800","caller":"web_app/main.go:60","msg":"Gen ID 416404735940104192"}
+{"level":"DEBUG","time":"2023-08-24T09:25:08.718+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:25:08.736+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405085166243840"}
+{"level":"DEBUG","time":"2023-08-24T09:25:17.092+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:25:17.211+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405120712970240"}
+{"level":"DEBUG","time":"2023-08-24T09:25:47.829+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:25:47.856+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405249247416320"}
+{"level":"DEBUG","time":"2023-08-24T09:26:04.436+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:26:04.572+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405319359401984"}
+{"level":"DEBUG","time":"2023-08-24T09:26:10.753+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:26:10.785+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405345418612736"}
+{"level":"DEBUG","time":"2023-08-24T09:26:11.211+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:26:11.238+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405347318632448"}
+{"level":"INFO","time":"2023-08-24T09:26:18.453+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.065347217}
+{"level":"INFO","time":"2023-08-24T09:26:19.513+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.063621495}
+{"level":"INFO","time":"2023-08-24T09:26:23.759+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.03575846}
+{"level":"INFO","time":"2023-08-24T09:26:24.795+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.037874092}
+{"level":"INFO","time":"2023-08-24T09:26:28.547+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":1.088864558}
+{"level":"DEBUG","time":"2023-08-24T09:26:52.320+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T09:26:52.343+0800","caller":"web_app/main.go:60","msg":"Gen ID 416405519725498368"}
+{"level":"DEBUG","time":"2023-08-24T10:48:12.533+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:48:12.546+0800","caller":"web_app/main.go:60","msg":"Gen ID 416425988780462080"}
+{"level":"DEBUG","time":"2023-08-24T10:50:24.115+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:50:24.132+0800","caller":"web_app/main.go:60","msg":"Gen ID 416426540692148224"}
+{"level":"DEBUG","time":"2023-08-24T10:56:10.579+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:56:10.597+0800","caller":"web_app/main.go:60","msg":"Gen ID 416427993871683584"}
+{"level":"DEBUG","time":"2023-08-24T10:56:39.727+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:56:39.743+0800","caller":"web_app/main.go:60","msg":"Gen ID 416428116118867968"}
+{"level":"DEBUG","time":"2023-08-24T10:57:42.683+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:57:42.698+0800","caller":"web_app/main.go:60","msg":"Gen ID 416428380171276288"}
+{"level":"DEBUG","time":"2023-08-24T10:58:12.386+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:58:12.400+0800","caller":"web_app/main.go:60","msg":"Gen ID 416428504750493696"}
+{"level":"DEBUG","time":"2023-08-24T10:59:54.762+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T10:59:54.777+0800","caller":"web_app/main.go:60","msg":"Gen ID 416428934150754304"}
+{"level":"DEBUG","time":"2023-08-24T11:00:03.058+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:00:03.076+0800","caller":"web_app/main.go:60","msg":"Gen ID 416428968959283200"}
+{"level":"DEBUG","time":"2023-08-24T11:00:22.904+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:00:22.922+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429052199440384"}
+{"level":"DEBUG","time":"2023-08-24T11:00:29.749+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:00:29.766+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429080905256960"}
+{"level":"DEBUG","time":"2023-08-24T11:00:34.647+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:00:34.675+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429101495095296"}
+{"level":"DEBUG","time":"2023-08-24T11:02:35.709+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:02:35.729+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429609232371712"}
+{"level":"DEBUG","time":"2023-08-24T11:02:56.843+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:02:56.856+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429697845432320"}
+{"level":"DEBUG","time":"2023-08-24T11:03:02.190+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:03:02.211+0800","caller":"web_app/main.go:60","msg":"Gen ID 416429720305930240"}
+{"level":"DEBUG","time":"2023-08-24T11:05:36.286+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T11:05:36.286+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:05:36.300+0800","caller":"web_app/main.go:60","msg":"Gen ID 416430366602039296"}
+{"level":"INFO","time":"2023-08-24T11:05:36.300+0800","caller":"web_app/main.go:60","msg":"Gen ID 416430366602039296"}
+{"level":"DEBUG","time":"2023-08-24T11:07:34.110+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:07:34.125+0800","caller":"web_app/main.go:60","msg":"Gen ID 416430860795908096"}
+{"level":"DEBUG","time":"2023-08-24T11:08:00.228+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:08:00.242+0800","caller":"web_app/main.go:60","msg":"Gen ID 416430970338545664"}
+{"level":"DEBUG","time":"2023-08-24T11:08:00.700+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:08:00.713+0800","caller":"web_app/main.go:60","msg":"Gen ID 416430972314062848"}
+{"level":"INFO","time":"2023-08-24T11:08:45.839+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000037165}
+{"level":"INFO","time":"2023-08-24T11:08:59.455+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000022122}
+{"level":"INFO","time":"2023-08-24T11:09:03.140+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.022126514}
+{"level":"DEBUG","time":"2023-08-24T11:09:16.261+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:09:16.275+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431289244061696"}
+{"level":"INFO","time":"2023-08-24T11:09:16.516+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000284413}
+{"level":"DEBUG","time":"2023-08-24T11:09:39.870+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:09:39.884+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431388267384832"}
+{"level":"DEBUG","time":"2023-08-24T11:09:49.871+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:09:49.977+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431430600495104"}
+{"level":"INFO","time":"2023-08-24T11:09:53.070+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000439177}
+{"level":"INFO","time":"2023-08-24T11:09:54.233+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000288206}
+{"level":"INFO","time":"2023-08-24T11:09:55.445+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000067857}
+{"level":"DEBUG","time":"2023-08-24T11:10:29.689+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:10:29.705+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431597231804416"}
+{"level":"INFO","time":"2023-08-24T11:10:37.468+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000392774}
+{"level":"DEBUG","time":"2023-08-24T11:10:47.013+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:10:47.028+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431669889732608"}
+{"level":"INFO","time":"2023-08-24T11:10:47.084+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000369764}
+{"level":"INFO","time":"2023-08-24T11:10:48.275+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00018089}
+{"level":"DEBUG","time":"2023-08-24T11:10:59.977+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:10:59.992+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431724260495360"}
+{"level":"INFO","time":"2023-08-24T11:11:07.999+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000485861}
+{"level":"INFO","time":"2023-08-24T11:11:11.761+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000073984}
+{"level":"INFO","time":"2023-08-24T11:11:13.379+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000084035}
+{"level":"DEBUG","time":"2023-08-24T11:11:45.742+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:11:45.760+0800","caller":"web_app/main.go:60","msg":"Gen ID 416431916229595136"}
+{"level":"DEBUG","time":"2023-08-24T11:17:21.594+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:17:21.609+0800","caller":"web_app/main.go:61","msg":"Gen ID 416433324882399232"}
+{"level":"DEBUG","time":"2023-08-24T11:17:54.027+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:17:54.126+0800","caller":"web_app/main.go:61","msg":"Gen ID 416433461268582400"}
+{"level":"DEBUG","time":"2023-08-24T11:19:41.040+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:19:41.057+0800","caller":"web_app/main.go:61","msg":"Gen ID 416433909769703424"}
+{"level":"DEBUG","time":"2023-08-24T11:19:54.753+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:19:54.768+0800","caller":"web_app/main.go:61","msg":"Gen ID 416433967277805568"}
+{"level":"DEBUG","time":"2023-08-24T11:20:11.799+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:20:11.813+0800","caller":"web_app/main.go:61","msg":"Gen ID 416434038769717248"}
+{"level":"INFO","time":"2023-08-24T11:22:33.949+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000524324}
+{"level":"INFO","time":"2023-08-24T11:22:35.148+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000281758}
+{"level":"DEBUG","time":"2023-08-24T11:23:45.006+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:23:45.021+0800","caller":"web_app/main.go:61","msg":"Gen ID 416434933028884480"}
+{"level":"DEBUG","time":"2023-08-24T11:25:15.255+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:25:15.279+0800","caller":"web_app/main.go:61","msg":"Gen ID 416435311598374912"}
+{"level":"INFO","time":"2023-08-24T11:25:23.586+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000397283}
+{"level":"DEBUG","time":"2023-08-24T11:41:13.789+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:41:13.812+0800","caller":"web_app/main.go:61","msg":"Gen ID 416439331977170944"}
+{"level":"DEBUG","time":"2023-08-24T11:41:20.731+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:41:20.820+0800","caller":"web_app/main.go:61","msg":"Gen ID 416439361370853376"}
+{"level":"DEBUG","time":"2023-08-24T11:42:12.698+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:42:12.727+0800","caller":"web_app/main.go:61","msg":"Gen ID 416439579084591104"}
+{"level":"DEBUG","time":"2023-08-24T11:44:21.046+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:44:21.066+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440117377372160"}
+{"level":"DEBUG","time":"2023-08-24T11:44:50.276+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:44:50.296+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440239972683776"}
+{"level":"DEBUG","time":"2023-08-24T11:44:58.212+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:44:58.311+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440273594224640"}
+{"level":"DEBUG","time":"2023-08-24T11:45:59.441+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:45:59.458+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440530063331328"}
+{"level":"DEBUG","time":"2023-08-24T11:46:02.440+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:46:02.455+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440542633660416"}
+{"level":"DEBUG","time":"2023-08-24T11:46:56.087+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:46:56.103+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440767649681408"}
+{"level":"DEBUG","time":"2023-08-24T11:46:59.437+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:46:59.451+0800","caller":"web_app/main.go:61","msg":"Gen ID 416440781692211200"}
+{"level":"DEBUG","time":"2023-08-24T11:51:06.178+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:51:06.192+0800","caller":"web_app/main.go:61","msg":"Gen ID 416441816598974464"}
+{"level":"DEBUG","time":"2023-08-24T11:51:19.643+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:51:19.663+0800","caller":"web_app/main.go:61","msg":"Gen ID 416441873100443648"}
+{"level":"DEBUG","time":"2023-08-24T11:52:04.788+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:52:04.802+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442062427131904"}
+{"level":"DEBUG","time":"2023-08-24T11:52:12.947+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:52:12.963+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442096656846848"}
+{"level":"DEBUG","time":"2023-08-24T11:52:18.033+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:52:18.050+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442117993271296"}
+{"level":"DEBUG","time":"2023-08-24T11:52:48.800+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:52:48.853+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442247190417408"}
+{"level":"DEBUG","time":"2023-08-24T11:54:50.830+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:54:50.844+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442758857756672"}
+{"level":"DEBUG","time":"2023-08-24T11:54:53.007+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T11:54:53.041+0800","caller":"web_app/main.go:61","msg":"Gen ID 416442768072642560"}
+{"level":"DEBUG","time":"2023-08-24T12:39:00.514+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:39:00.534+0800","caller":"web_app/main.go:61","msg":"Gen ID 416453872463122432"}
+{"level":"DEBUG","time":"2023-08-24T12:39:04.559+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:39:04.576+0800","caller":"web_app/main.go:61","msg":"Gen ID 416453889416499200"}
+{"level":"DEBUG","time":"2023-08-24T12:39:31.219+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:39:31.235+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454001232449536"}
+{"level":"DEBUG","time":"2023-08-24T12:39:32.037+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:39:32.056+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454004675973120"}
+{"level":"DEBUG","time":"2023-08-24T12:39:45.431+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:39:45.444+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454060829315072"}
+{"level":"DEBUG","time":"2023-08-24T12:40:36.330+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:40:36.344+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454274319388672"}
+{"level":"DEBUG","time":"2023-08-24T12:40:42.414+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:40:42.431+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454299850117120"}
+{"level":"DEBUG","time":"2023-08-24T12:41:55.775+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:41:55.792+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454607548452864"}
+{"level":"DEBUG","time":"2023-08-24T12:42:03.016+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:42:03.043+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454637961351168"}
+{"level":"DEBUG","time":"2023-08-24T12:42:40.102+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:42:40.117+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454793460977664"}
+{"level":"DEBUG","time":"2023-08-24T12:43:07.046+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:43:07.066+0800","caller":"web_app/main.go:61","msg":"Gen ID 416454906493276160"}
+{"level":"DEBUG","time":"2023-08-24T12:43:58.836+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:43:58.881+0800","caller":"web_app/main.go:61","msg":"Gen ID 416455123821137920"}
+{"level":"DEBUG","time":"2023-08-24T12:49:12.480+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:49:12.493+0800","caller":"web_app/main.go:61","msg":"Gen ID 416456439205203968"}
+{"level":"DEBUG","time":"2023-08-24T12:51:11.821+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:51:11.841+0800","caller":"web_app/main.go:61","msg":"Gen ID 416456939786997760"}
+{"level":"DEBUG","time":"2023-08-24T12:51:28.103+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:51:28.117+0800","caller":"web_app/main.go:61","msg":"Gen ID 416457008053489664"}
+{"level":"DEBUG","time":"2023-08-24T12:54:51.271+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:54:51.289+0800","caller":"web_app/main.go:61","msg":"Gen ID 416457860218621952"}
+{"level":"DEBUG","time":"2023-08-24T12:54:53.616+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:54:53.631+0800","caller":"web_app/main.go:61","msg":"Gen ID 416457870041681920"}
+{"level":"DEBUG","time":"2023-08-24T12:55:11.387+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:55:11.400+0800","caller":"web_app/main.go:61","msg":"Gen ID 416457944570269696"}
+{"level":"DEBUG","time":"2023-08-24T12:55:47.238+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:55:47.253+0800","caller":"web_app/main.go:61","msg":"Gen ID 416458094948651008"}
+{"level":"DEBUG","time":"2023-08-24T12:57:34.818+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:57:34.839+0800","caller":"web_app/main.go:61","msg":"Gen ID 416458546197041152"}
+{"level":"DEBUG","time":"2023-08-24T12:57:46.861+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:57:46.880+0800","caller":"web_app/main.go:61","msg":"Gen ID 416458596700655616"}
+{"level":"DEBUG","time":"2023-08-24T12:57:55.971+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:57:55.989+0800","caller":"web_app/main.go:61","msg":"Gen ID 416458634906570752"}
+{"level":"DEBUG","time":"2023-08-24T12:58:30.286+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:58:30.299+0800","caller":"web_app/main.go:61","msg":"Gen ID 416458778813140992"}
+{"level":"DEBUG","time":"2023-08-24T12:59:59.699+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T12:59:59.729+0800","caller":"web_app/main.go:61","msg":"Gen ID 416459153909747712"}
+{"level":"DEBUG","time":"2023-08-24T13:00:15.142+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:00:15.156+0800","caller":"web_app/main.go:61","msg":"Gen ID 416459218615275520"}
+{"level":"DEBUG","time":"2023-08-24T13:00:20.064+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:00:20.078+0800","caller":"web_app/main.go:61","msg":"Gen ID 416459239259639808"}
+{"level":"DEBUG","time":"2023-08-24T13:00:23.479+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:00:23.511+0800","caller":"web_app/main.go:61","msg":"Gen ID 416459253658685440"}
+{"level":"DEBUG","time":"2023-08-24T13:00:44.515+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:00:44.528+0800","caller":"web_app/main.go:61","msg":"Gen ID 416459341810372608"}
+{"level":"DEBUG","time":"2023-08-24T13:33:37.187+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:33:37.200+0800","caller":"web_app/main.go:61","msg":"Gen ID 416467615796432896"}
+{"level":"DEBUG","time":"2023-08-24T13:34:05.615+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:34:05.645+0800","caller":"web_app/main.go:61","msg":"Gen ID 416467735103410176"}
+{"level":"DEBUG","time":"2023-08-24T13:35:22.582+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:35:22.599+0800","caller":"web_app/main.go:61","msg":"Gen ID 416468057871880192"}
+{"level":"DEBUG","time":"2023-08-24T13:35:25.544+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:35:25.582+0800","caller":"web_app/main.go:61","msg":"Gen ID 416468070383489024"}
+{"level":"DEBUG","time":"2023-08-24T13:35:30.748+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:35:30.853+0800","caller":"web_app/main.go:61","msg":"Gen ID 416468092491665408"}
+{"level":"DEBUG","time":"2023-08-24T13:35:45.394+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:35:45.410+0800","caller":"web_app/main.go:61","msg":"Gen ID 416468153548148736"}
+{"level":"DEBUG","time":"2023-08-24T13:41:28.512+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:41:28.530+0800","caller":"web_app/main.go:61","msg":"Gen ID 416469592697737216"}
+{"level":"DEBUG","time":"2023-08-24T13:41:32.457+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:41:32.484+0800","caller":"web_app/main.go:61","msg":"Gen ID 416469609282015232"}
+{"level":"DEBUG","time":"2023-08-24T13:41:36.751+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:41:36.769+0800","caller":"web_app/main.go:61","msg":"Gen ID 416469627254607872"}
+{"level":"DEBUG","time":"2023-08-24T13:43:07.372+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:43:07.388+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470007338242048"}
+{"level":"DEBUG","time":"2023-08-24T13:44:00.294+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:44:00.311+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470229313392640"}
+{"level":"DEBUG","time":"2023-08-24T13:44:07.764+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:44:07.776+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470260623872000"}
+{"level":"DEBUG","time":"2023-08-24T13:44:16.117+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:44:16.140+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470295705030656"}
+{"level":"DEBUG","time":"2023-08-24T13:45:15.541+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:45:15.559+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470544926380032"}
+{"level":"DEBUG","time":"2023-08-24T13:45:21.128+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:45:21.145+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470568355762176"}
+{"level":"DEBUG","time":"2023-08-24T13:45:23.930+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:45:23.941+0800","caller":"web_app/main.go:61","msg":"Gen ID 416470580083036160"}
+{"level":"DEBUG","time":"2023-08-24T13:47:28.051+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:47:28.194+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471101237891072"}
+{"level":"DEBUG","time":"2023-08-24T13:49:21.524+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:49:21.538+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471576637083648"}
+{"level":"DEBUG","time":"2023-08-24T13:49:31.378+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:49:31.391+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471617963560960"}
+{"level":"DEBUG","time":"2023-08-24T13:49:31.889+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:49:31.908+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471620132016128"}
+{"level":"DEBUG","time":"2023-08-24T13:49:36.767+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:49:36.784+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471640583442432"}
+{"level":"DEBUG","time":"2023-08-24T13:50:02.078+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:50:02.105+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471746787414016"}
+{"level":"DEBUG","time":"2023-08-24T13:50:48.925+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:50:48.942+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471943236030464"}
+{"level":"DEBUG","time":"2023-08-24T13:50:54.190+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:50:54.210+0800","caller":"web_app/main.go:61","msg":"Gen ID 416471965331623936"}
+{"level":"DEBUG","time":"2023-08-24T13:51:26.892+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:51:26.912+0800","caller":"web_app/main.go:61","msg":"Gen ID 416472102493753344"}
+{"level":"DEBUG","time":"2023-08-24T13:52:15.262+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:52:15.280+0800","caller":"web_app/main.go:61","msg":"Gen ID 416472305363849216"}
+{"level":"DEBUG","time":"2023-08-24T13:52:35.838+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:52:35.851+0800","caller":"web_app/main.go:61","msg":"Gen ID 416472391644876800"}
+{"level":"DEBUG","time":"2023-08-24T13:52:54.953+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416121851840827392","direction":1}
+{"level":"ERROR","time":"2023-08-24T13:52:54.953+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T13:52:54.953+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00055399}
+{"level":"INFO","time":"2023-08-24T13:54:11.384+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.009560318}
+{"level":"DEBUG","time":"2023-08-24T13:54:33.354+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T13:54:33.354+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T13:54:33.354+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000525694}
+{"level":"DEBUG","time":"2023-08-24T13:55:29.412+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:55:29.434+0800","caller":"web_app/main.go:61","msg":"Gen ID 416473119704748032"}
+{"level":"DEBUG","time":"2023-08-24T13:55:47.015+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:55:47.030+0800","caller":"web_app/main.go:61","msg":"Gen ID 416473193507721216"}
+{"level":"DEBUG","time":"2023-08-24T13:55:48.522+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:55:48.536+0800","caller":"web_app/main.go:61","msg":"Gen ID 416473199824343040"}
+{"level":"DEBUG","time":"2023-08-24T13:55:50.719+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T13:55:50.719+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T13:55:50.719+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00049147}
+{"level":"DEBUG","time":"2023-08-24T13:58:30.422+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:58:30.446+0800","caller":"web_app/main.go:61","msg":"Gen ID 416473878924103680"}
+{"level":"DEBUG","time":"2023-08-24T13:58:46.419+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:58:46.433+0800","caller":"web_app/main.go:61","msg":"Gen ID 416473945978441728"}
+{"level":"DEBUG","time":"2023-08-24T13:59:57.116+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:59:57.138+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474242536706048"}
+{"level":"DEBUG","time":"2023-08-24T13:59:59.613+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T13:59:59.629+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474252984717312"}
+{"level":"DEBUG","time":"2023-08-24T14:00:07.058+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:07.069+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474284190339072"}
+{"level":"DEBUG","time":"2023-08-24T14:00:17.714+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:17.730+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474328905814016"}
+{"level":"DEBUG","time":"2023-08-24T14:00:23.745+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:23.768+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474354231021568"}
+{"level":"DEBUG","time":"2023-08-24T14:00:26.319+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:26.332+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474364985217024"}
+{"level":"DEBUG","time":"2023-08-24T14:00:27.480+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:27.495+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474369863192576"}
+{"level":"DEBUG","time":"2023-08-24T14:00:45.053+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:00:45.066+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474443561308160"}
+{"level":"ERROR","time":"2023-08-24T14:00:59.362+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:00:59.362+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010088458}
+{"level":"ERROR","time":"2023-08-24T14:01:58.370+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:01:58.370+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012103632}
+{"level":"DEBUG","time":"2023-08-24T14:02:49.956+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:02:49.979+0800","caller":"web_app/main.go:61","msg":"Gen ID 416474967484403712"}
+{"level":"DEBUG","time":"2023-08-24T14:06:31.298+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:06:31.321+0800","caller":"web_app/main.go:61","msg":"Gen ID 416475895860039680"}
+{"level":"DEBUG","time":"2023-08-24T14:06:36.274+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:06:36.302+0800","caller":"web_app/main.go:61","msg":"Gen ID 416475916751867904"}
+{"level":"DEBUG","time":"2023-08-24T14:06:37.610+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:06:37.644+0800","caller":"web_app/main.go:61","msg":"Gen ID 416475922380623872"}
+{"level":"DEBUG","time":"2023-08-24T14:07:13.662+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:07:13.748+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476073811775488"}
+{"level":"DEBUG","time":"2023-08-24T14:07:20.396+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:07:20.410+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476101754228736"}
+{"level":"ERROR","time":"2023-08-24T14:07:30.618+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:07:30.619+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012228141}
+{"level":"DEBUG","time":"2023-08-24T14:07:41.072+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:07:41.098+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476188525989888"}
+{"level":"ERROR","time":"2023-08-24T14:07:44.081+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:07:44.082+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.009676328}
+{"level":"DEBUG","time":"2023-08-24T14:08:03.955+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:08:03.955+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T14:08:03.955+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00039499}
+{"level":"DEBUG","time":"2023-08-24T14:08:04.922+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:08:04.922+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T14:08:04.922+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00020575}
+{"level":"INFO","time":"2023-08-24T14:08:06.959+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.019737957}
+{"level":"INFO","time":"2023-08-24T14:08:08.069+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.016768764}
+{"level":"INFO","time":"2023-08-24T14:08:08.875+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.02103212}
+{"level":"INFO","time":"2023-08-24T14:08:09.768+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.019621991}
+{"level":"INFO","time":"2023-08-24T14:08:13.602+0800","caller":"logger/logger.go:80","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.017321154}
+{"level":"ERROR","time":"2023-08-24T14:08:26.498+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:08:26.498+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.00938909}
+{"level":"DEBUG","time":"2023-08-24T14:09:42.150+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:09:42.169+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476696334569472"}
+{"level":"DEBUG","time":"2023-08-24T14:09:46.916+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:09:46.934+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476716320428032"}
+{"level":"DEBUG","time":"2023-08-24T14:10:03.749+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:10:03.763+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476786906370048"}
+{"level":"ERROR","time":"2023-08-24T14:10:09.241+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:10:09.241+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.019976518}
+{"level":"DEBUG","time":"2023-08-24T14:10:25.714+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:10:25.758+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476879160086528"}
+{"level":"DEBUG","time":"2023-08-24T14:10:29.910+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:10:29.927+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476896646139904"}
+{"level":"INFO","time":"2023-08-24T14:10:33.304+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010010018}
+{"level":"DEBUG","time":"2023-08-24T14:10:49.548+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:10:49.565+0800","caller":"web_app/main.go:61","msg":"Gen ID 416476979013881856"}
+{"level":"DEBUG","time":"2023-08-24T14:11:18.895+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:11:18.917+0800","caller":"web_app/main.go:61","msg":"Gen ID 416477102125092864"}
+{"level":"DEBUG","time":"2023-08-24T14:11:58.621+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:11:58.641+0800","caller":"web_app/main.go:61","msg":"Gen ID 416477268739624960"}
+{"level":"DEBUG","time":"2023-08-24T14:11:59.185+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:11:59.197+0800","caller":"web_app/main.go:61","msg":"Gen ID 416477271071657984"}
+{"level":"DEBUG","time":"2023-08-24T14:12:02.134+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:12:02.134+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:12:02.134+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012696472}
+{"level":"DEBUG","time":"2023-08-24T14:12:46.140+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:12:46.140+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T14:12:46.140+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000334342}
+{"level":"DEBUG","time":"2023-08-24T14:12:47.582+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:12:47.583+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T14:12:47.583+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000443357}
+{"level":"DEBUG","time":"2023-08-24T14:14:42.859+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:14:42.859+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"投票时间已过了"}
+{"level":"INFO","time":"2023-08-24T14:14:42.859+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000556469}
+{"level":"DEBUG","time":"2023-08-24T14:14:50.393+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:14:50.393+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:14:50.393+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.009505822}
+{"level":"DEBUG","time":"2023-08-24T14:15:49.138+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:15:49.152+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478235572834304"}
+{"level":"DEBUG","time":"2023-08-24T14:15:53.549+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:15:53.549+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:15:53.549+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010169473}
+{"level":"DEBUG","time":"2023-08-24T14:16:10.631+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:16:10.645+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478325721010176"}
+{"level":"DEBUG","time":"2023-08-24T14:16:27.111+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:16:27.130+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478394864111616"}
+{"level":"DEBUG","time":"2023-08-24T14:16:30.915+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:16:30.954+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478410903130112"}
+{"level":"DEBUG","time":"2023-08-24T14:16:35.394+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:16:35.408+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478429584560128"}
+{"level":"DEBUG","time":"2023-08-24T14:16:39.612+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:16:39.622+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478447259357184"}
+{"level":"DEBUG","time":"2023-08-24T14:17:49.970+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:17:50.003+0800","caller":"web_app/main.go:61","msg":"Gen ID 416478742458667008"}
+{"level":"DEBUG","time":"2023-08-24T14:21:13.081+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:21:13.095+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479594288254976"}
+{"level":"DEBUG","time":"2023-08-24T14:21:14.294+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:21:14.294+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:21:14.294+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000882155}
+{"level":"DEBUG","time":"2023-08-24T14:21:50.596+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:21:50.608+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479751629180928"}
+{"level":"DEBUG","time":"2023-08-24T14:21:54.688+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:21:54.705+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479768813244416"}
+{"level":"DEBUG","time":"2023-08-24T14:21:55.681+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:21:55.681+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:21:55.681+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000527144}
+{"level":"DEBUG","time":"2023-08-24T14:22:08.637+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:22:08.698+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479827504140288"}
+{"level":"DEBUG","time":"2023-08-24T14:22:09.626+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:22:09.626+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:22:09.627+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000803324}
+{"level":"DEBUG","time":"2023-08-24T14:22:16.390+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:22:16.391+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:22:16.391+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000584516}
+{"level":"DEBUG","time":"2023-08-24T14:22:26.373+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:22:26.401+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479901755904000"}
+{"level":"DEBUG","time":"2023-08-24T14:22:28.998+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:22:29.032+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479912791117824"}
+{"level":"DEBUG","time":"2023-08-24T14:22:30.497+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:22:30.497+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:22:30.497+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000656739}
+{"level":"DEBUG","time":"2023-08-24T14:22:49.029+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:22:49.062+0800","caller":"web_app/main.go:61","msg":"Gen ID 416479996803026944"}
+{"level":"DEBUG","time":"2023-08-24T14:22:57.390+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:22:57.405+0800","caller":"web_app/main.go:61","msg":"Gen ID 416480031796105216"}
+{"level":"DEBUG","time":"2023-08-24T14:22:58.141+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:22:58.141+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:22:58.142+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000456649}
+{"level":"DEBUG","time":"2023-08-24T14:25:23.737+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:25:23.757+0800","caller":"web_app/main.go:61","msg":"Gen ID 416480645640884224"}
+{"level":"DEBUG","time":"2023-08-24T14:25:37.677+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:25:37.677+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:25:37.677+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.013891362}
+{"level":"DEBUG","time":"2023-08-24T14:27:19.485+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:27:19.522+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481131194486784"}
+{"level":"DEBUG","time":"2023-08-24T14:27:20.365+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:27:20.391+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481134839336960"}
+{"level":"DEBUG","time":"2023-08-24T14:27:31.431+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:27:31.431+0800","caller":"controller/post.go:37","msg":"logic.SignUp() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:27:31.431+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.008613072}
+{"level":"DEBUG","time":"2023-08-24T14:28:16.456+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:28:16.469+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481370047516672"}
+{"level":"DEBUG","time":"2023-08-24T14:28:29.248+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:28:29.248+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:28:29.248+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.013523644}
+{"level":"DEBUG","time":"2023-08-24T14:28:59.989+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:29:00.007+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481552659124224"}
+{"level":"DEBUG","time":"2023-08-24T14:29:02.756+0800","caller":"redis/vote.go:32","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:29:02.756+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:29:02.756+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.009801534}
+{"level":"DEBUG","time":"2023-08-24T14:29:48.753+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:29:48.773+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481757198553088"}
+{"level":"DEBUG","time":"2023-08-24T14:29:51.366+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:29:51.388+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481768166658048"}
+{"level":"DEBUG","time":"2023-08-24T14:29:56.101+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:29:56.116+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481787997327360"}
+{"level":"DEBUG","time":"2023-08-24T14:30:06.219+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:30:06.235+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481830439489536"}
+{"level":"DEBUG","time":"2023-08-24T14:30:10.946+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:30:10.965+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481850278547456"}
+{"level":"DEBUG","time":"2023-08-24T14:30:28.111+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:30:28.125+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481922252804096"}
+{"level":"DEBUG","time":"2023-08-24T14:30:39.178+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:30:39.193+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481968675360768"}
+{"level":"DEBUG","time":"2023-08-24T14:30:45.106+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:30:45.133+0800","caller":"web_app/main.go:61","msg":"Gen ID 416481993589526528"}
+{"level":"DEBUG","time":"2023-08-24T14:31:20.839+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:31:20.857+0800","caller":"web_app/main.go:61","msg":"Gen ID 416482143426842624"}
+{"level":"DEBUG","time":"2023-08-24T14:31:37.862+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:31:37.876+0800","caller":"web_app/main.go:61","msg":"Gen ID 416482214809702400"}
+{"level":"DEBUG","time":"2023-08-24T14:38:54.997+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:38:55.025+0800","caller":"web_app/main.go:61","msg":"Gen ID 416484048345501696"}
+{"level":"DEBUG","time":"2023-08-24T14:39:10.658+0800","caller":"logic/vote.go:13","msg":"VoteForPost","userID":415425126029332480,"postID":"416472792301572096","direction":1}
+{"level":"ERROR","time":"2023-08-24T14:39:10.658+0800","caller":"controller/vote.go:38","msg":"logic.VoteForPost(userID, p)","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:39:10.658+0800","caller":"logger/logger.go:80","msg":"/api/v1/vote/","status":200,"method":"POST","path":"/api/v1/vote/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.000447659}
+{"level":"DEBUG","time":"2023-08-24T14:41:43.767+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:41:43.789+0800","caller":"web_app/main.go:61","msg":"Gen ID 416484756193021952"}
+{"level":"DEBUG","time":"2023-08-24T14:41:52.529+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:41:52.542+0800","caller":"web_app/main.go:61","msg":"Gen ID 416484792905764864"}
+{"level":"DEBUG","time":"2023-08-24T14:42:27.542+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:42:27.556+0800","caller":"web_app/main.go:61","msg":"Gen ID 416484939765125120"}
+{"level":"DEBUG","time":"2023-08-24T14:42:59.420+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:42:59.435+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485073475342336"}
+{"level":"DEBUG","time":"2023-08-24T14:43:02.602+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:43:02.619+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485086830006272"}
+{"level":"DEBUG","time":"2023-08-24T14:43:25.953+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:43:25.970+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485184771198976"}
+{"level":"DEBUG","time":"2023-08-24T14:43:28.391+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:43:28.410+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485195005300736"}
+{"level":"DEBUG","time":"2023-08-24T14:43:33.299+0800","caller":"redis/vote.go:42","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:43:33.299+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:43:33.299+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011552201}
+{"level":"DEBUG","time":"2023-08-24T14:43:59.953+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:43:59.970+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485327377534976"}
+{"level":"DEBUG","time":"2023-08-24T14:44:10.348+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:10.365+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485370977325056"}
+{"level":"DEBUG","time":"2023-08-24T14:44:10.967+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:10.981+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485373561016320"}
+{"level":"DEBUG","time":"2023-08-24T14:44:15.435+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:15.451+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485392309555200"}
+{"level":"DEBUG","time":"2023-08-24T14:44:26.383+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:26.398+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485438224601088"}
+{"level":"DEBUG","time":"2023-08-24T14:44:48.388+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:48.402+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485530516066304"}
+{"level":"DEBUG","time":"2023-08-24T14:44:51.129+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:51.148+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485542033625088"}
+{"level":"DEBUG","time":"2023-08-24T14:44:57.603+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:44:57.618+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485569170771968"}
+{"level":"DEBUG","time":"2023-08-24T14:45:02.679+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:45:02.698+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485590477836288"}
+{"level":"DEBUG","time":"2023-08-24T14:45:05.989+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:45:05.989+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:45:05.989+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:45:05.990+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011248738}
+{"level":"DEBUG","time":"2023-08-24T14:46:00.598+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:46:00.611+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485833382563840"}
+{"level":"DEBUG","time":"2023-08-24T14:46:30.963+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:46:30.989+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485960792936448"}
+{"level":"DEBUG","time":"2023-08-24T14:46:37.363+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:46:37.382+0800","caller":"web_app/main.go:61","msg":"Gen ID 416485987611316224"}
+{"level":"DEBUG","time":"2023-08-24T14:46:41.134+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:46:41.154+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486003432230912"}
+{"level":"DEBUG","time":"2023-08-24T14:46:57.734+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:46:57.749+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486073036705792"}
+{"level":"DEBUG","time":"2023-08-24T14:47:01.518+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:47:01.549+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486088975060992"}
+{"level":"DEBUG","time":"2023-08-24T14:47:07.085+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:47:07.104+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486112274419712"}
+{"level":"DEBUG","time":"2023-08-24T14:47:13.119+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-24T14:47:13.139+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486137587044352"}
+{"level":"DEBUG","time":"2023-08-24T14:47:31.119+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:47:31.137+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:47:31.137+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486213076127744"}
+{"level":"DEBUG","time":"2023-08-24T14:47:47.156+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:47:47.177+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:47:47.177+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486280352763904"}
+{"level":"DEBUG","time":"2023-08-24T14:47:51.951+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:47:51.970+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:47:51.970+0800","caller":"web_app/main.go:61","msg":"Gen ID 416486300456062976"}
+{"level":"DEBUG","time":"2023-08-24T14:48:02.566+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:48:02.566+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:48:02.566+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:48:02.566+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.01144788}
+{"level":"DEBUG","time":"2023-08-24T14:49:24.482+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:49:24.482+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:49:24.482+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:49:24.482+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012448041}
+{"level":"DEBUG","time":"2023-08-24T14:51:22.139+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:51:22.165+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:51:22.165+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487182077792256"}
+{"level":"DEBUG","time":"2023-08-24T14:51:33.149+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:51:33.218+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:51:33.218+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487228437434368"}
+{"level":"DEBUG","time":"2023-08-24T14:51:35.014+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:51:35.041+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:51:35.041+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487236083650560"}
+{"level":"DEBUG","time":"2023-08-24T14:51:35.785+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:51:35.811+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:51:35.812+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487239317458944"}
+{"level":"DEBUG","time":"2023-08-24T14:51:47.777+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:51:47.803+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:51:47.803+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487289611358208"}
+{"level":"DEBUG","time":"2023-08-24T14:52:00.446+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:52:00.462+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:52:00.462+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487342707052544"}
+{"level":"DEBUG","time":"2023-08-24T14:52:07.806+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:52:07.821+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:52:07.821+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487373572935680"}
+{"level":"DEBUG","time":"2023-08-24T14:52:11.288+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:52:11.288+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:52:11.288+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:52:11.288+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.012761817}
+{"level":"DEBUG","time":"2023-08-24T14:52:56.634+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:52:56.652+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:52:56.652+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487578384994304"}
+{"level":"DEBUG","time":"2023-08-24T14:53:00.685+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:53:00.702+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:53:00.703+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487595376119808"}
+{"level":"DEBUG","time":"2023-08-24T14:53:03.378+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:53:03.378+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:53:03.378+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:53:03.378+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.049381086}
+{"level":"DEBUG","time":"2023-08-24T14:53:19.606+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:53:19.622+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:53:19.622+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487674728157184"}
+{"level":"DEBUG","time":"2023-08-24T14:53:22.237+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:53:22.237+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:53:22.237+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:53:22.237+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.016180583}
+{"level":"DEBUG","time":"2023-08-24T14:53:47.637+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:53:47.655+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:53:47.655+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487792307081216"}
+{"level":"DEBUG","time":"2023-08-24T14:53:52.729+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:53:52.729+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:53:52.729+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:53:52.729+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.010419539}
+{"level":"DEBUG","time":"2023-08-24T14:54:07.914+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:54:07.933+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:54:07.934+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487877363372032"}
+{"level":"DEBUG","time":"2023-08-24T14:54:19.544+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:54:19.562+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:54:19.562+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487926134738944"}
+{"level":"DEBUG","time":"2023-08-24T14:54:24.193+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:54:24.207+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:54:24.207+0800","caller":"web_app/main.go:61","msg":"Gen ID 416487945617281024"}
+{"level":"DEBUG","time":"2023-08-24T14:54:31.455+0800","caller":"redis/vote.go:36","msg":"======rdb.zadd","error":"redis: client is closed"}
+{"level":"DEBUG","time":"2023-08-24T14:54:31.455+0800","caller":"redis/vote.go:49","msg":"rdb.zadd","error":"redis: client is closed"}
+{"level":"ERROR","time":"2023-08-24T14:54:31.455+0800","caller":"controller/post.go:37","msg":"CreatePost() failed","error":"redis: client is closed"}
+{"level":"INFO","time":"2023-08-24T14:54:31.456+0800","caller":"logger/logger.go:80","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.32.3","errors":"","cost":0.011625116}
+{"level":"DEBUG","time":"2023-08-24T14:57:04.503+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:57:04.537+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:57:04.537+0800","caller":"web_app/main.go:61","msg":"Gen ID 416488618090041344"}
+{"level":"DEBUG","time":"2023-08-24T14:57:15.262+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:57:15.381+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:57:15.381+0800","caller":"web_app/main.go:61","msg":"Gen ID 416488663573073920"}
+{"level":"DEBUG","time":"2023-08-24T14:57:22.993+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:57:23.009+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:57:23.009+0800","caller":"web_app/main.go:61","msg":"Gen ID 416488695567224832"}
+{"level":"DEBUG","time":"2023-08-24T14:57:26.010+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:57:26.063+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:57:26.063+0800","caller":"web_app/main.go:61","msg":"Gen ID 416488708376629248"}
+{"level":"DEBUG","time":"2023-08-24T14:57:35.751+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T14:57:35.770+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T14:57:35.770+0800","caller":"web_app/main.go:61","msg":"Gen ID 416488749090738176"}
+{"level":"DEBUG","time":"2023-08-24T15:05:36.349+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:05:36.391+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:05:36.391+0800","caller":"web_app/main.go:61","msg":"Gen ID 416490764961320960"}
+{"level":"DEBUG","time":"2023-08-24T15:05:43.900+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:05:43.987+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:05:43.987+0800","caller":"web_app/main.go:61","msg":"Gen ID 416490796821254144"}
+{"level":"DEBUG","time":"2023-08-24T15:06:04.773+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:06:04.801+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:06:04.801+0800","caller":"web_app/main.go:61","msg":"Gen ID 416490884121497600"}
+{"level":"DEBUG","time":"2023-08-24T15:06:06.451+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:06:06.469+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:06:06.469+0800","caller":"web_app/main.go:61","msg":"Gen ID 416490891117596672"}
+{"level":"DEBUG","time":"2023-08-24T15:06:13.460+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:06:13.485+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:06:13.485+0800","caller":"web_app/main.go:61","msg":"Gen ID 416490920544833536"}
+{"level":"DEBUG","time":"2023-08-24T15:56:47.229+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:56:47.260+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:56:47.260+0800","caller":"web_app/main.go:61","msg":"Gen ID 416503645119451136"}
+{"level":"DEBUG","time":"2023-08-24T15:56:52.166+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:56:52.185+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:56:52.185+0800","caller":"web_app/main.go:61","msg":"Gen ID 416503665776398336"}
+{"level":"DEBUG","time":"2023-08-24T15:56:56.055+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:56:56.075+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:56:56.076+0800","caller":"web_app/main.go:61","msg":"Gen ID 416503682096435200"}
+{"level":"DEBUG","time":"2023-08-24T15:57:06.640+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:57:06.656+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:57:06.656+0800","caller":"web_app/main.go:61","msg":"Gen ID 416503726472171520"}
+{"level":"DEBUG","time":"2023-08-24T15:57:09.601+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:57:09.624+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:57:09.624+0800","caller":"web_app/main.go:61","msg":"Gen ID 416503738920865792"}
+{"level":"DEBUG","time":"2023-08-24T15:59:07.564+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T15:59:07.585+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T15:59:07.586+0800","caller":"web_app/main.go:61","msg":"Gen ID 416504233689354240"}
+{"level":"DEBUG","time":"2023-08-24T16:00:59.723+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:00:59.741+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:00:59.741+0800","caller":"web_app/main.go:61","msg":"Gen ID 416504704101519360"}
+{"level":"DEBUG","time":"2023-08-24T16:07:27.328+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:07:27.411+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:07:27.445+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506330249957376"}
+{"level":"DEBUG","time":"2023-08-24T16:07:48.153+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:07:48.177+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:07:48.177+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506417206267904"}
+{"level":"DEBUG","time":"2023-08-24T16:07:48.542+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:07:48.559+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:07:48.559+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506418808492032"}
+{"level":"DEBUG","time":"2023-08-24T16:07:55.264+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:07:55.284+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:07:55.285+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506447019380736"}
+{"level":"DEBUG","time":"2023-08-24T16:08:04.110+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:08:04.134+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:08:04.134+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506484134776832"}
+{"level":"DEBUG","time":"2023-08-24T16:09:13.453+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:09:13.481+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:09:13.481+0800","caller":"web_app/main.go:61","msg":"Gen ID 416506774997176320"}
+{"level":"DEBUG","time":"2023-08-24T16:14:32.833+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:14:32.893+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:14:32.893+0800","caller":"web_app/main.go:61","msg":"Gen ID 416508114708205568"}
+{"level":"DEBUG","time":"2023-08-24T16:21:34.551+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:21:34.573+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:21:34.573+0800","caller":"web_app/main.go:61","msg":"Gen ID 416509883362316288"}
+{"level":"DEBUG","time":"2023-08-24T16:22:03.447+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:22:03.469+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:22:03.469+0800","caller":"web_app/main.go:61","msg":"Gen ID 416510004560924672"}
+{"level":"DEBUG","time":"2023-08-24T16:29:21.001+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:29:21.143+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:29:21.144+0800","caller":"web_app/main.go:61","msg":"Gen ID 416511840302927872"}
+{"level":"DEBUG","time":"2023-08-24T16:29:37.090+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:29:37.175+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:29:37.176+0800","caller":"web_app/main.go:61","msg":"Gen ID 416511907546009600"}
+{"level":"DEBUG","time":"2023-08-24T16:29:43.984+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:29:44.457+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:29:44.457+0800","caller":"web_app/main.go:61","msg":"Gen ID 416511938084737024"}
+{"level":"DEBUG","time":"2023-08-24T16:30:16.869+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:30:16.897+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:30:16.897+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512074147958784"}
+{"level":"DEBUG","time":"2023-08-24T16:30:31.101+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:30:31.131+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:30:31.131+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512133849681920"}
+{"level":"DEBUG","time":"2023-08-24T16:30:32.525+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:30:32.548+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:30:32.549+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512139797204992"}
+{"level":"DEBUG","time":"2023-08-24T16:30:50.519+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:30:50.540+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:30:50.540+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512215256928256"}
+{"level":"DEBUG","time":"2023-08-24T16:31:07.017+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:07.037+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:07.037+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512284450361344"}
+{"level":"DEBUG","time":"2023-08-24T16:31:08.575+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:08.594+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:08.594+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512290980892672"}
+{"level":"DEBUG","time":"2023-08-24T16:31:09.395+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:09.416+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:09.417+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512294432804864"}
+{"level":"DEBUG","time":"2023-08-24T16:31:34.131+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:34.194+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:34.194+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512398355075072"}
+{"level":"DEBUG","time":"2023-08-24T16:31:37.301+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:37.319+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:37.319+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512411462275072"}
+{"level":"DEBUG","time":"2023-08-24T16:31:38.624+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:38.645+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:38.645+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512417023922176"}
+{"level":"DEBUG","time":"2023-08-24T16:31:39.595+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:39.618+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:39.618+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512421104979968"}
+{"level":"DEBUG","time":"2023-08-24T16:31:46.341+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:46.362+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:46.362+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512449391366144"}
+{"level":"DEBUG","time":"2023-08-24T16:31:59.602+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:31:59.618+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:31:59.618+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512504991059968"}
+{"level":"DEBUG","time":"2023-08-24T16:32:12.346+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:32:12.371+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:32:12.371+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512558481018880"}
+{"level":"DEBUG","time":"2023-08-24T16:33:54.889+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:33:54.916+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:33:54.916+0800","caller":"web_app/main.go:61","msg":"Gen ID 416512988585922560"}
+{"level":"DEBUG","time":"2023-08-24T16:34:21.043+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:34:21.063+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:34:21.063+0800","caller":"web_app/main.go:61","msg":"Gen ID 416513098254389248"}
+{"level":"DEBUG","time":"2023-08-24T16:34:30.245+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:34:30.269+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:34:30.269+0800","caller":"web_app/main.go:61","msg":"Gen ID 416513136867151872"}
+{"level":"DEBUG","time":"2023-08-24T16:36:06.380+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:36:06.397+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:36:06.397+0800","caller":"web_app/main.go:61","msg":"Gen ID 416513540057206784"}
+{"level":"DEBUG","time":"2023-08-24T16:37:05.719+0800","caller":"web_app/main.go:38","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-24T16:37:05.748+0800","caller":"redis/redis.go:30","msg":"rdb.Ping() Ok ========"}
+{"level":"INFO","time":"2023-08-24T16:37:05.749+0800","caller":"web_app/main.go:61","msg":"Gen ID 416513788997537792"}
+{"level":"INFO","time":"2023-08-24T18:04:59.640+0800","caller":"web_app/main.go:93","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-24T18:04:59.644+0800","caller":"web_app/main.go:102","msg":"Server exiting"}
